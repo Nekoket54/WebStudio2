@@ -22,6 +22,7 @@ body{
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
+    text-decoration: none;
 }
 
 .header-link{
@@ -29,6 +30,7 @@ body{
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
+    text-decoration: none;
 }
 
 .header-email{
@@ -36,6 +38,7 @@ body{
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
+    text-decoration: none;
 }
 
 .header-number{
@@ -109,4 +112,82 @@ main{
 
 footer{
     background-color: var(--footer);
+}
+
+header{
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header .logo{
+    margin-left: 215px;
+}
+
+.header-list{
+    display: flex;
+    width: 281px;
+    height: 16px;
+    justify-content: space-between;
+    margin-left: 93px;
+    margin-right: 344px;
+}
+
+.header-number{
+    margin-left: 50px;
+    margin-right: 215px;
+}
+
+.main-div{
+    width: 575px;
+    height: 54px;
+    margin-top: 94px;
+    margin-bottom: 34px;
+    margin-left: 512px;
+}
+
+.main-button{
+    padding: 6px 22px;
+    border: var(--background-button);
+
+}
+
+.main-button:hover{
+    color: var(--main);
+    background-color: var(--header-email);
+}
+
+
+.main-list{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 1272px;
+    align-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.main-list li{
+    width: 370px;
+    height: 404px;
+}
+
+footer{
+    width: 1600px;
+    height: 252px;
+    padding-top: 60px;
+    padding-left: 215px;
+}
+
+.footer-list{
+    display: flex;
+    width: 231px;
+    height: 81px;
+    margin-top: 20px;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
