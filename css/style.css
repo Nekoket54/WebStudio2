@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-:root{
-    --header-email:#2196F3;
-    --header-link:#212121;
-    --header-number:#757575;
-    --main:#FFF;
-    --footer:#2F303A;
-    --background-button:#F5F4FA;
-    --footer-email:rgba(255, 255, 255, 0.60);
+:root {
+    --header-email: #2196F3;
+    --header-link: #212121;
+    --header-number: #757575;
+    --main: #FFF;
+    --footer: #2F303A;
+    --background-button: #F5F4FA;
+    --footer-email: rgba(255, 255, 255, 0.60);
 }
 
-body{
+body {
     font-family: "Roboto";
 }
 
-.logo{
+.logo {
     font-family: "Raleway";
 }
 
-.logo{
+.logo {
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
     text-decoration: none;
 }
 
-.header-link{
+.header-link {
     color: var(--header-link);
     font-size: 14px;
     font-weight: 500;
@@ -33,7 +33,7 @@ body{
     text-decoration: none;
 }
 
-.header-email{
+.header-email {
     color: var(--header-email);
     font-size: 14px;
     font-weight: 500;
@@ -41,14 +41,14 @@ body{
     text-decoration: none;
 }
 
-.header-number{
+.header-number {
     color: var(--header-number);
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
 }
 
-button{
+button {
     color: var(--header-link);
     font-size: 16px;
     font-weight: 500;
@@ -56,7 +56,7 @@ button{
     letter-spacing: 0.48px;
 }
 
-.main-name{
+.main-name {
     color: var(--header-link);
     font-size: 18px;
     font-weight: 700;
@@ -64,7 +64,7 @@ button{
     letter-spacing: 1.08px;
 }
 
-.main-text{
+.main-text {
     color: var(--header-number);
     font-size: 16px;
     font-weight: 400;
@@ -72,7 +72,7 @@ button{
     letter-spacing: 0.48px;
 }
 
-.footer-address{
+.footer-address {
     color: var(--main);
     font-size: 14px;
     font-weight: 400;
@@ -80,7 +80,7 @@ button{
     letter-spacing: 0.42px;
 }
 
-.footer-email{
+.footer-email {
     color: var(--footer-email);
     font-size: 14px;
     font-weight: 400;
@@ -88,7 +88,7 @@ button{
     letter-spacing: 0.42px;
 }
 
-.footer-number{
+.footer-number {
     color: var(--footer-email);
     font-size: 14px;
     font-weight: 400;
@@ -98,35 +98,36 @@ button{
 
 
 
-header{
+header {
     background-color: var(--main);
 }
 
-button{
+button {
     background-color: var(--background-button);
 }
 
-main{
+main {
     background-color: var(--main);
 }
 
-footer{
+footer {
     background-color: var(--footer);
 }
 
-header{
+header {
     width: 1600px;
     height: 80px;
     display: flex;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 94px;
 }
 
-header .logo{
+header .logo {
     margin-left: 215px;
 }
 
-.header-list{
+.header-list {
     display: flex;
     width: 281px;
     height: 16px;
@@ -135,32 +136,33 @@ header .logo{
     margin-right: 344px;
 }
 
-.header-number{
+.header-number {
     margin-left: 50px;
     margin-right: 215px;
 }
 
-.main-div{
+.main-div {
     width: 575px;
     height: 54px;
     margin-top: 94px;
     margin-bottom: 34px;
     margin-left: 512px;
+    margin: 0 auto;
 }
 
-.main-button{
+.main-button {
     padding: 6px 22px;
-    border: var(--background-button);
-
+    border: none;
+    border-radius: 4px;
 }
 
-.main-button:hover{
+.main-button:hover {
     color: var(--main);
     background-color: var(--header-email);
 }
 
 
-.main-list{
+.main-list {
     display: flex;
     width: 1170px;
     margin: 0 auto;
@@ -169,25 +171,29 @@ header .logo{
     align-content: space-between;
 
     flex-wrap: wrap;
+    margin-top: 34px;
 }
 
-.main-list li{
+.main-list li {
     width: 370px;
     height: 404px;
 }
 
-footer{
-    width: 1600px;
+footer {
     height: 252px;
     padding-top: 60px;
-    padding-left: 215px;
 }
 
-.footer-list{
+.footer-list {
     display: flex;
     width: 231px;
     height: 81px;
     margin-top: 20px;
     align-content: space-between;
     flex-wrap: wrap;
+}
+
+.footer-div {
+    width: 1170px;
+    margin: 0 auto;
 }
