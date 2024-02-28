@@ -197,3 +197,15 @@ footer {
     width: 1170px;
     margin: 0 auto;
 }
+
+.header-span{
+    color: var(--header-email);
+}
+
+.header-span-black{
+    color: var(--header-link);
+}
+
+.header-span-white{
+    color: var(--main);
+}
